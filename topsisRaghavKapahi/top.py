@@ -114,10 +114,4 @@ def topsis(src,weight,impact,destination):
     myfunc(mydf,w,destination,my_impact)
    
 
-if __name__=='__main__':
 
-    source=sys.argv[1]
-    l=sys.argv[2]
-    im=sys.argv[3]
-    dest=sys.argv[4]
-    topsis(source,l,im,dest)
